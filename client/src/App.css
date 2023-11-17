@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+{
+
+    
+    .hola {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .hola01{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .hola-article{}
+
+    .hola-article h2{
+        font-size: 35px;
+    }
+    .hola-article p{font-size: 20px;line-height: 1.2;} 
+    .hola-img{width: 150px;}
+    .hola-img-meco{display: none;}
+    .hola-cont-img-meco{display: none;}
+
+    
+}
+
+/* @media only screen and (min-width: 1600px) and (min-height: 720px) {
+    .hola {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .hola01{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .hola-article{}
+
+    .hola-article h2{
+        font-size: 35px;
+    }
+    .hola-article p{font-size: 20px;line-height: 1.2;} 
+    .hola-img{width: 150px;}
+    .hola-img-meco{display: none;}
+    .hola-cont-img-meco{display: none;}
+} */

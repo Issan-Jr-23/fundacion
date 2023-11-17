@@ -18,39 +18,41 @@ export default function App() {
   };
 
   return (
-    <div className='border-2 border-red-500'
+    <div className=''
       style={{minHeight:"100vh"}}
     >
-      <section className='border-4 border-green-500 flex flex-wrap'
+      {/* <h1 className='text-5xl uppercase absolute font-semibold  mt-2 w-full text-center'>ips medigroup</h1> */}
+      <section className=' flex hola'
         style={{
           minHeight: "100vh"
         }}
       >
 
 
-    <div className=' w-6/12  flex flex-col items-center justify-center'>
-        <section className='flex justify-evenly items-center h-2/6  w-full flex-col'>
-          <img src={Logo} alt="" />
-          <article className='text-center flex justify-center flex-col items-center'>
-            <h2 className="font-semibold"
-              style={{fontSize: "40px"}}
-            >SELECCIONA LA ESP A LA QUE PERTENECES</h2>
-            <p className='w-9/12 text-2xl font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et fuga quos ducimus, impedit tenetur recusandae nisi minus praesentium nemo.</p>
+    <div className='hola01 lg:w-6/12  flex flex-col items-center lg:justify-center'
+      style={{display:"flex"}}
+    >
+        <section className='flex justify-evenly items-center lg:h-2/6  w-full flex-col'>
+          <img className='lg:w-40' src={Logo} alt="" />
+          <article className='hola-article text-center flex justify-center flex-col items-center'>
+            <h2 className="hola-title font-semibold lg:text-4xl w-9/12"
+            >Selecciona Tu EPS Asociada</h2>
+            <p className='hola-p w-9/12 text-3xl lg:text-base font-medium mt-3 text-justify'>Descubre en <span className='underline text-green-700'>IPS MediGroup</span> la guía completa de servicios de salud para usuarios de EPS Sanitas y ESP Cajacopi, facilitando el acceso a información esencial y detallada.</p>
           </article>
-        <article className=' w-full flex justify-evenly '
+        <article className='items-center w-full flex justify-evenly '
         >
-        <Button className='w-32 text-base uppercase mt-5' color='primary' onClick={handleOpenPDFS}>
+        <Button className='w-40 text-base uppercase mt-5' color='primary' onClick={handleOpenPDFS}>
           eps sanitas
         </Button>
 
        
-            <Button className='w-32 text-base uppercase mt-5' color='danger' onClick={handleOpenPDFC}>
+            <Button className='w-40 text-base uppercase mt-5' color='danger' onClick={handleOpenPDFC}>
               EPS Cajacopi
             </Button>
         </article>
         </section>
     </div>
-    <div className=' w-6/12 flex items-center justify-center'
+    <div className='hola-cont-img-meco w-6/12 flex items-center justify-center'
 
     >
       {/* <div className='flex justify-center items-center flex-col'>
@@ -58,7 +60,7 @@ export default function App() {
         <h2 className='text-5xl font-semibold'>IPS MEDIGROUP</h2>
         <p className='w-9/12 text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam nam laudantium iste numquam ad alias obcaecati impedit! Fugiat earum voluptates animi.</p>
       </div> */}
-        <img className='w-96' src={Meco} alt="" />
+        <img className='hola-img-meco w-96 lg:w-72' src={Meco} alt="" />
     </div>
 
       </section>
