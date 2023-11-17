@@ -29,25 +29,28 @@ export default function App() {
       >
 
 
-    <div className='hola01 lg:w-6/12  flex flex-col items-center lg:justify-center'
+    <div className='hola01 lg:w-6/12  flex flex-col items-center justify-center lg:justify-center'
       style={{display:"flex"}}
     >
         <section className='flex justify-evenly items-center lg:h-2/6  w-full flex-col'>
-          <img className='lg:w-40' src={Logo} alt="" />
+          <img className='hola-img lg:w-40' src={Logo} alt="" />
           <article className='hola-article text-center flex justify-center flex-col items-center'>
             <h2 className="hola-title font-semibold lg:text-4xl w-9/12"
             >Selecciona Tu EPS Asociada</h2>
             <p className='hola-p w-9/12 text-3xl lg:text-base font-medium mt-3 text-justify'>Descubre en <span className='underline text-green-700'>IPS MediGroup</span> la guía completa de servicios de salud para usuarios de EPS Sanitas y ESP Cajacopi, facilitando el acceso a información esencial y detallada.</p>
           </article>
-        <article className='items-center w-full flex justify-evenly '
+        <article className='hola-art items-center w-full flex justify-evenly'
         >
-        <Button className='w-40 text-base uppercase mt-5' color='primary' onClick={handleOpenPDFS}>
+        <Button className='button01 lg:w-40 lg:h-10 text-base uppercase mt-5' color='primary' onClick={handleOpenPDFS}>
           eps sanitas
         </Button>
 
        
-            <Button className='w-40 text-base uppercase mt-5' color='danger' onClick={handleOpenPDFC}>
+            <Button className='button02 lg:w-40 lg:h-10  text-base uppercase mt-5' color='danger' onClick={handleOpenPDFC}>
+              <div className='button02'>
+
               EPS Cajacopi
+              </div>
             </Button>
         </article>
         </section>
