@@ -5,7 +5,7 @@ const QuienesSomos = () => {
   return (
     <div className="quienes-somos-00 min-h-screen ">
         <div className="quienes-somos-01">
-            <img className="quienes-somos-01-img" src={quienesSomos} alt="" />
+            <img className="quienes-somos-01-img" src={quienesSomos} alt="" /> 
         </div>
         <div className="quienes-somos-02">
             <article className="quienes-somos-02-article">

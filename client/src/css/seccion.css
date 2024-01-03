@@ -1,0 +1,26 @@
+.section-component-00{
+    height: 50vh;
+    display: flex;
+    justify-content: center;align-items: center;
+    background-image: url("../../public/beautiful.jpg");
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.section-component-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    text-transform: uppercase;
+}
+
+.section-component-01-parrafo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}

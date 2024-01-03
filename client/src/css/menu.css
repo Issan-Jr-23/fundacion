@@ -4,18 +4,18 @@
 }
 
 .nav-00{
-    height: 48px;
+    height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0070f0;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .nav-01-lista{
     width: 70%;
     display: flex;
     justify-content: space-evenly
-
 }
 
 .nav-01-figure{

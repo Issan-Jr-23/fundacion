@@ -3,7 +3,7 @@ import logo from "../../public/logo-obrart.png"
 
 const Navbar = () => {
   return (
-    <div className=" nav-00-container w-full h-12 border-2 border-red-500  bg-white" style={{position:"fixed"}}>
+    <div className=" nav-00-container w-full" style={{position:"fixed"}}>
       <nav className="nav-00">
         <figure className="nav-01-figure">
           <span className="nav-01-figure-span" >

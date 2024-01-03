@@ -4,6 +4,9 @@ import Navbar from './components/Navbar.jsx'
 import QuienesSomos from './page/QuienesSomos.jsx'
 import NuestroTrabajo from './page/NuestroTrabajo.jsx'
 import FormularioDeContacto from './page/FormularioDeContacto.jsx'
+import Seccion from './page/Seccion.jsx'
+import Testimonios from './page/Testimonios.jsx'
+import Footer from './page/Footer.jsx'
 
 export default function App() {
 
@@ -13,8 +16,10 @@ export default function App() {
       <Head />
       <NuestroTrabajo/>
       <QuienesSomos/>
+      <Seccion/>
       <FormularioDeContacto/>
-    
+      <Testimonios/>
+      <Footer/>
     </div>
   )
 }

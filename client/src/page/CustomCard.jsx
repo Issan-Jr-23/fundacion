@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react"
+// import { Button } from "@nextui-org/react"
 import dall from "../../public/DALLE.png"
 import "../css/card.css"
 const CustomCard = () => {
@@ -11,8 +11,8 @@ const CustomCard = () => {
           <p className="section-01-parrafo" >Nos dedicamos a brindarle apoyo nutricional a los ancianos, ofreciendo alimentos, cariño y asistencia para mejorar su calidad de vida y bienestar</p>
 
           <span className="section-01-span-btn">
-            <Button className="section-01-span-btn-01 text-white text-base font-semibold rounded-full" style={{backgroundColor:"#ffa500"}}>Ver Acciones</Button>
-            <Button className="section-01-span-btn-02 text-white text-base font-semibold rounded-full" style={{backgroundColor:"#ffa500"}}>Transforma Vidas</Button>
+            <button className="section-01-span-btn-01 text-white font-semibold rounded-full" style={{backgroundColor:"#ffa500"}}>Ver Acciones</button>
+            <button className="section-01-span-btn-02 text-white  font-semibold rounded-full" style={{backgroundColor:"#ffa500"}}>Transforma Vidas</button>
           </span>
 
         </section>

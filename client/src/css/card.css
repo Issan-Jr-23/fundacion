@@ -51,7 +51,11 @@
 
 .section-01-span-btn-01 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
+  height: 50px;
+  font-size: 20px;
   margin-right: 20px;
   font-weight: 600;
   background-color: #ffa500;
