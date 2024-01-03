@@ -1,65 +1,118 @@
-.class-00{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 48px;
+.class-00-fondo {
+  position: relative; /* Esto es necesario para posicionar el pseudo-elemento */
+  background: url("../../public/fondo-voluntariados.png") no-repeat center fixed;
 }
 
-.section-01{
-    border: 2px solid red;
-    height: 50%;
+/* Pseudo-elemento para oscurecer el fondo */
+.class-00-fondo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9); /* negro con 50% de opacidad */
+  z-index: 1; /* Coloca el pseudo-elemento debajo del contenido */
+}
+
+.class-00 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.section-01 {
+  height: 50%;
+  width: 100%;
+  padding: 0 20px;
+  z-index: 10;
+}
+
+.section-01-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5b0b8c;
+  margin-bottom: 10px;
+}
+
+.section-01-parrafo {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(237, 237, 237);
+}
+
+.section-01-span-btn {
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+.section-01-span-btn-01 {
+  display: flex;
+  width: 170px;
+  margin-right: 20px;
+  font-weight: 600;
+  background-color: #ffa500;
+}
+
+.section-01-span-btn-02 {
+  width: 170px;
+  margin-right: 20px;
+}
+
+.cont-dall-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.section-container-dall {
+  overflow: hidden;
+  height: 80%;
+  width: 80%;
+}
+
+.dall-img {
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  .section-01 {
+    height: 60%;
     width: 100%;
     padding: 0 20px;
-}
+  }
 
-.section-01-title{
-    font-size: 36px;
+  .section-01-title {
+    font-size: 34px;
     text-transform: uppercase;
     font-weight: 700;
-    color: rgb(0, 110, 255);
+    color: #9d00ff;
     margin-bottom: 10px;
-}
+  }
 
-.section-01-parrafo{
-    font-size: 22px;
+  .section-01-parrafo {
+    font-size: 20px;
     font-weight: 500;
-    color: rgb(117, 117, 117);
-   
-}
+    color: rgb(228, 228, 228);
+  }
 
-.section-01-span-btn{
+  .section-01-span-btn-01 {
     display: flex;
-    margin-top: 20px;
-    
-}
-
-.section-01-span-btn-01{
-    display: flex;
-    width: 170px;
+    width: 150px;
     margin-right: 20px;
     font-weight: 600;
-}
-
-.section-01-span-btn-02{
-    width: 170px;
-    margin-right: 20px;
-}
-
-.cont-dall-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-}
-.section-container-dall{
-    overflow: hidden;
-    height: 80%;
-    width: 80%;
     
+  }
 
-}
-
-.dall-img{
+  .section-01-span-btn-02 {
+    width: 150px;
+    margin-right: 20px;
+  }
 }

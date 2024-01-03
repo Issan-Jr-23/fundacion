@@ -58,7 +58,7 @@ and (max-width: 736px)
     .hola-cont-img-meco{display: none;}
 } */
 
-@media only screen and 
+/* @media only screen and 
 (min-device-width: 768px) and (max-device-width: 1024px) 
 {
 
@@ -86,4 +86,4 @@ and (max-width: 736px)
 
     .hola-img-meco{ width: 400px;}
     .hola-cont-img-meco{display: block;}
-}
+} */

@@ -1,0 +1,39 @@
+
+.nav-00-container{
+    z-index: 50;
+}
+
+.nav-00{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0070f0;
+}
+
+.nav-01-lista{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+.nav-01-figure{
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.nav-01-figure-span{
+    display: flex;
+    border-radius: 50%;
+    height: 40px;
+    width: 43px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-01-figure-img{
+    width: 50px;
+    height: 50px;  
+}
