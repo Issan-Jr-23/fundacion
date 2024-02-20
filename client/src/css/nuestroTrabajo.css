@@ -8,7 +8,7 @@
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #9d00ff;
+    color: #008cff;
     margin: 30px 30px;
     display: flex;
     justify-content: center;
@@ -36,8 +36,8 @@
 }
 
 .nuestro-trabajo-article-00{
-    height: 270px;
-    width: 230px;
+    height: 350px;
+    width: 270px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.1px 3px 12px 0px rgb(205, 205, 205);
@@ -50,7 +50,7 @@
 .span-numero-card{
     font-size: 24px;
     font-weight: 700;
-    color: #9d00ff;
+    color: #008cff;
 }
 
 .nuestro-trabajo-article-00-img{
@@ -58,12 +58,12 @@
     margin: 10px 0px;
 }
 
-.nuestro-trabajo-article-00 h2{
+/* .nuestro-trabajo-article-00 h2{
     font-size: 18px;
     width: 100%;
     font-weight: 700;
     text-transform: uppercase;
-}
+} */
 
 .nuestro-trabajo-article-span-00{
     display: flex;
@@ -75,5 +75,5 @@
 
 .nuestro-trabajo-article-span-00-ver-mas{
     font-weight: 600;
-    color: #9d00ff;
+    color: #008cff;
 }

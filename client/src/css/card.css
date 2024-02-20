@@ -1,5 +1,6 @@
 .class-00-fondo {
-  position: relative; /* Esto es necesario para posicionar el pseudo-elemento */
+  position: relative;
+  /* Esto es necesario para posicionar el pseudo-elemento */
   background: url("../../public/fondo-voluntariados.png") no-repeat center fixed;
 }
 
@@ -11,8 +12,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9); /* negro con 50% de opacidad */
-  z-index: 1; /* Coloca el pseudo-elemento debajo del contenido */
+  background: rgba(0, 0, 0, 0.9);
+  /* negro con 50% de opacidad */
+  z-index: 1;
+  /* Coloca el pseudo-elemento debajo del contenido */
 }
 
 .class-00 {
@@ -33,7 +36,7 @@
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #5b0b8c;
+  color: #008cff;
   margin-bottom: 10px;
 }
 
@@ -46,7 +49,7 @@
 .section-01-span-btn {
   display: flex;
   margin-top: 20px;
-  
+
 }
 
 .section-01-span-btn-01 {
@@ -58,7 +61,7 @@
   font-size: 20px;
   margin-right: 20px;
   font-weight: 600;
-  background-color: #ffa500;
+  background-color: white;
 }
 
 .section-01-span-btn-02 {
@@ -75,14 +78,16 @@
   align-items: center;
   z-index: 10;
 }
+
 .section-container-dall {
   overflow: hidden;
-  height: 80%;
-  width: 80%;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
 }
 
-.dall-img {
-}
+.dall-img {}
 
 
 
@@ -112,7 +117,7 @@
     width: 150px;
     margin-right: 20px;
     font-weight: 600;
-    
+
   }
 
   .section-01-span-btn-02 {

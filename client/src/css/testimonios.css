@@ -22,8 +22,10 @@
 
 .testimonios-01-card{
     width: 300px;
+    height: 550px;
     padding-bottom: 20px;
     border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
 }
 
 .testimonios-01-card-title{
@@ -37,4 +39,10 @@
 
 .testimonios-01-card-descripcion{
     text-align: center;
+}
+
+.testimonios-01-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
 }

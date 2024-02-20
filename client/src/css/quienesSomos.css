@@ -26,10 +26,10 @@
 .quienes-somos-02-article-title{
     font-size: 30px;
     margin-top: 30px;
-    color: #9d00ff;
+    color: #008cff;
     text-transform: uppercase;
     font-weight: 600;
-    border-bottom: 3px solid #9d00ff;
+    border-bottom: 3px solid #008cff;
 }
 
 .quienes-somos-02-article-parrafo{
@@ -39,7 +39,7 @@
 }
 
 .span-parrafo-00{
-    color: rgb(255, 179, 0);
+    color: #008cff;
     font-weight: 600;
 }
 
@@ -73,7 +73,7 @@
     .quienes-somos-02-article-title{
         font-size: 30px;
         margin-top: 30px;
-        color: #9d00ff;
+        color: #008cff;
         text-transform: uppercase;
         font-weight: 600;
         border-bottom: 3px solid #9d00ff;
