@@ -3,6 +3,12 @@ import dall from "../../public/DALLE.png"
 import "../css/card.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 AOS.init();
 
@@ -12,7 +18,7 @@ AOS.init();
 const CustomCard = () => {
   return (
     <div className="flex class-00-fondo" >
-      <div className=" class-00  min-h-screen w-6/12">
+      <div className=" class-00  ">
         <section className="section-01">
           <h1 className="section-01-title"
             data-aos="fade-down"
@@ -34,11 +40,29 @@ const CustomCard = () => {
 
         </section>
       </div>
-      <div className=" cont-dall-img  w-6/12" data-aos="fade-up"
+      <div className=" cont-dall-img " data-aos="fade-up"
         data-aos-duration="1200">
 
-        <section className="section-container-dall ">
-          <img src={dall} alt="" className="dall-img thumbnail"/>
+        <section className="section-container-dall  mt-5">
+          <>
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              // pagination={{
+              //   clickable: true,
+              // }}
+              // navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide> <img src={dall} alt="" /></SwiperSlide>
+              <SwiperSlide>Slide 2</SwiperSlide>
+            </Swiper>
+          </>
 
         </section>
       </div>

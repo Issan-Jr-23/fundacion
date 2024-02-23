@@ -1,10 +1,10 @@
-.nuestro-trabajo-00{
+.nuestro-trabajo-00 {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
 }
 
-.nuestro-trabajo-00-title{
+.nuestro-trabajo-00-title {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
@@ -16,26 +16,26 @@
     padding-top: 40px;
 }
 
-.span-nuestro-trabajo-00-title{
+.span-nuestro-trabajo-00-title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.span-nuestro-trabajo-00-parrafo{
+.span-nuestro-trabajo-00-parrafo {
     width: 70%;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.nuestro-trabajo-01{
+.nuestro-trabajo-01 {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nuestro-trabajo-article-00{
+.nuestro-trabajo-article-00 {
     height: 350px;
     width: 270px;
     border-radius: 20px;
@@ -47,13 +47,13 @@
     overflow: hidden;
 }
 
-.span-numero-card{
+.span-numero-card {
     font-size: 24px;
     font-weight: 700;
     color: #008cff;
 }
 
-.nuestro-trabajo-article-00-img{
+.nuestro-trabajo-article-00-img {
     width: 50px;
     margin: 10px 0px;
 }
@@ -65,7 +65,7 @@
     text-transform: uppercase;
 } */
 
-.nuestro-trabajo-article-span-00{
+.nuestro-trabajo-article-span-00 {
     display: flex;
     margin-top: 12px;
     color: rgb(162, 162, 162);
@@ -73,7 +73,14 @@
     overflow: hidden;
 }
 
-.nuestro-trabajo-article-span-00-ver-mas{
+.nuestro-trabajo-article-span-00-ver-mas {
     font-weight: 600;
     color: #008cff;
+}
+
+@media only screen and (max-width:600px) {
+    .nuestro-trabajo-01 {
+        display: flex;
+        flex-direction: column;
+    }
 }

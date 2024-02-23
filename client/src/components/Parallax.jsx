@@ -1,18 +1,24 @@
 import React, { useRef, useEffect, useState } from 'react';
 
+const isMobileDevice = () => {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+};
+
 const ParallaxContainer = ({ children }) => {
   const containerRef = useRef(null);
   const [offsetX, setOffsetX] = useState(0);
 
   const handleScroll = () => {
-    if (containerRef.current) {
+    if (!isMobileDevice() && containerRef.current) {
       const { top } = containerRef.current.getBoundingClientRect();
       setOffsetX(top);
     }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    if (!isMobileDevice()) {
+      window.addEventListener('scroll', handleScroll);
+    }
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);

@@ -15,10 +15,10 @@ const Testimonios = () => {
                 <h2 className="testimonios-01-card-title" >Lorem, ipsum.</h2>
                 <span><p className="testimonios-01-card-descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellendus?</p></span>
             </article>
-            <article className="testimonios-01-card" >
-                <img src={agradecimiento02} alt="" />
-                <h2 className="testimonios-01-card-title" >Lorem, ipsum.</h2>
-                <span><p className="testimonios-01-card-descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellendus?</p></span>
+            <article className="testimonios-01-card">
+                <img src={agradecimiento02} alt=""/>
+                <h2 className="testimonios-01-card-title">Lorem, ipsum.</h2>
+                <span><p className="testimonios-01-card-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellendus?</p></span>
             </article>
             <article className="testimonios-01-card" >
                 <img src={agradecimiento03} alt="" />
